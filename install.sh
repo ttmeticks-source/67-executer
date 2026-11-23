@@ -2,7 +2,7 @@
 
 echo "🚀 Installing 67 EXECUTER..."
 
-# Check macOS version (corrected logic)
+# Check macOS version (FIXED: checks MAJOR version, not minor)
 MACOS_MAJOR=$(sw_vers -productVersion | awk '{print $1}' | cut -d '.' -f 1)
 if [ "$MACOS_MAJOR" -lt 11 ]; then
     echo "❌ This executer requires macOS 11.0 (Big Sur) or higher."
