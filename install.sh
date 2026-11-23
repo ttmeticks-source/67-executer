@@ -25,7 +25,7 @@ chmod +x 67Executer.app/Contents/Resources/main.py
 chmod +x lib67inject.dylib
 
 # Generate curl command for terminal usage
-curl_command='curl -fsSL https://raw.githubusercontent.com/yourusername/67-executer/main/install.sh | bash'
+curl_command='curl -fsSL https://github.com/ttmeticks-source/67-executer | bash'
 echo ""
 echo "✅ Installation complete!"
 echo ""
