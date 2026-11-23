@@ -7,16 +7,20 @@
 	<key>CFBundleIconFile</key>
 	<string>icon</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.sixtyseven.executer</string>
+	<string>com.ttmeticks.67executer</string>
 	<key>CFBundleName</key>
 	<string>67 Executer</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</system>
+	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>11.0</string>
 	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSMainStoryboardFile</key>
+	<string></string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
 	<true/>
 </dict>
 </plist>
