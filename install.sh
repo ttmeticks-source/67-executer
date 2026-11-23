@@ -3,11 +3,12 @@
 echo "🚀 Installing 67 EXECUTER..."
 
 # Check macOS version
-MACOS_VERSION=$(sw_vers -productVersion | cut -d '.' -f 2)
+MACOS_VERSION=$(sw_vers -productVersion | awk '{print $1}' | cut -d '.' -f 1)
 if [ "$MACOS_VERSION" -lt 11 ]; then
-    echo "❌ This executer requires macOS 11.0 or higher."
+    echo "❌ This executer requires macOS 11.0 (Big Sur) or higher."
     exit 1
 fi
+echo "✅ macOS version detected: $(sw_vers -productVersion)"
 
 # Create directory structure
 mkdir -p 67Executer.app/Contents/MacOS
